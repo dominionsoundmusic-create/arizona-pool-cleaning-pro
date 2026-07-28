@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arizona Pool Cleaning Pro | Pool Service & Maintenance</title>
+<meta name="description" content="Professional pool cleaning and maintenance services across Arizona. Weekly service, algae treatment, equipment repair, and chemical balancing. Get a free quote today.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --sky:#0ea5e9;
+  --sky-deep:#0369a1;
+  --aqua:#06b6d4;
+  --pool:#0284c7;
+  --sand:#f0a500;
+  --sand2:#fbbf24;
+  --white:#ffffff;
+  --off:#f0f9ff;
+  --dark:#0c1a2e;
+  --navy:#0f2744;
+  --mid:#475569;
+  --light:#e0f2fe;
+  --ff-display:'Syne',sans-serif;
+  --ff-body:'Inter',sans-serif;
+}
+html{scroll-behavior:smooth}
+body{font-family:var(--ff-body);background:var(--white);color:var(--dark);overflow-x:hidden}
+
+/* NAV */
+nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(12,26,46,0.96);backdrop-filter:blur(12px);padding:0 48px;display:flex;align-items:center;justify-content:space-between;height:68px;border-bottom:1px solid rgba(14,165,233,0.2)}
+.nav-logo{display:flex;align-items:center;gap:10px;text-decoration:none}
+.nav-logo-icon{font-size:1.6em}
+.nav-logo-text{font-family:var(--ff-display);font-size:1.1em;font-weight:800;color:var(--white);letter-spacing:-0.5px}
+.nav-logo-text span{color:var(--sky)}
+.nav-links{display:flex;gap:28px;align-items:center}
+.nav-links a{color:rgba(255,255,255,0.65);text-decoration:none;font-size:0.85em;font-weight:500;transition:color 0.2s}
+.nav-links a:hover{color:var(--sky)}
+.nav-cta{background:var(--sky);color:var(--white);padding:10px 22px;border-radius:6px;text-decoration:none;font-weight:600;font-size:0.85em;transition:all 0.2s}
+.nav-cta:hover{background:var(--pool)}
+
+/* HERO */
+.hero{min-height:100vh;position:relative;display:flex;align-items:center;overflow:hidden;background:var(--dark)}
+.hero-bg{position:absolute;inset:0;background:linear-gradient(160deg,#0c1a2e 0%,#0f2744 40%,#0c3d6b 100%)}
+.hero-pool{position:absolute;bottom:0;left:0;right:0;height:280px;background:linear-gradient(180deg,transparent 0%,rgba(6,182,212,0.12) 40%,rgba(2,132,199,0.25) 100%)}
+.hero-waves{position:absolute;bottom:0;left:0;right:0;height:120px;overflow:hidden}
+.hero-waves svg{width:100%;height:100%}
+.hero-content{position:relative;z-index:2;max-width:1200px;margin:0 auto;width:100%;padding:140px 48px 120px;display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+.hero-left{}
+.hero-tag{display:inline-flex;align-items:center;gap:8px;background:rgba(14,165,233,0.15);border:1px solid rgba(14,165,233,0.35);color:var(--sky);padding:7px 18px;border-radius:100px;font-size:0.78em;font-weight:600;letter-spacing:1px;margin-bottom:24px}
+.hero h1{font-family:var(--ff-display);font-size:clamp(2.8em,5vw,4.2em);color:var(--white);line-height:1.0;margin-bottom:20px;font-weight:800;letter-spacing:-1px}
+.hero h1 em{color:var(--sky);font-style:normal;display:block}
+.hero-sub{font-size:1.05em;color:rgba(255,255,255,0.6);max-width:480px;line-height:1.75;margin-bottom:36px;font-weight:300}
+.hero-btns{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:48px}
+.btn-sky{background:var(--sky);color:var(--white);padding:15px 36px;border-radius:8px;text-decoration:none;font-weight:700;font-size:0.95em;transition:all 0.2s;box-shadow:0 4px 24px rgba(14,165,233,0.4)}
+.btn-sky:hover{background:var(--pool);transform:translateY(-2px)}
+.btn-ghost{background:transparent;color:var(--white);padding:15px 36px;border-radius:8px;text-decoration:none;font-weight:600;font-size:0.95em;border:2px solid rgba(255,255,255,0.2);transition:all 0.2s}
+.btn-ghost:hover{border-color:var(--sky);color:var(--sky)}
+.hero-trust{display:flex;gap:24px;flex-wrap:wrap}
+.trust-item{display:flex;align-items:center;gap:8px;font-size:0.82em;color:rgba(255,255,255,0.5)}
+.trust-icon{color:var(--sand);font-size:1em}
+
+/* HERO RIGHT - Pool Visual */
+.hero-right{position:relative}
+.pool-visual{background:linear-gradient(135deg,rgba(14,165,233,0.15),rgba(6,182,212,0.08));border:1px solid rgba(14,165,233,0.2);border-radius:20px;padding:32px;position:relative;overflow:hidden}
+.pool-visual::before{content:'';position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:radial-gradient(circle,rgba(14,165,233,0.08) 0%,transparent 60%);animation:shimmer 4s ease-in-out infinite}
+@keyframes shimmer{0%,100%{transform:translate(0,0)}50%{transform:translate(10px,-10px)}}
+.pool-stat-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:20px}
+.pool-stat{background:rgba(255,255,255,0.05);border:1px solid rgba(14,165,233,0.2);border-radius:12px;padding:20px;text-align:center}
+.pool-stat-num{font-family:var(--ff-display);font-size:2em;font-weight:800;color:var(--sky);line-height:1;letter-spacing:-1px}
+.pool-stat-label{font-size:0.72em;color:rgba(255,255,255,0.5);margin-top:4px;letter-spacing:1px;text-transform:uppercase}
+.pool-service-list{display:flex;flex-direction:column;gap:10px}
+.pool-service-item{display:flex;align-items:center;gap:12px;background:rgba(255,255,255,0.04);border-radius:8px;padding:12px 16px;border:1px solid rgba(14,165,233,0.1)}
+.pool-service-check{color:var(--sky);font-size:1em;flex-shrink:0}
+.pool-service-text{font-size:0.88em;color:rgba(255,255,255,0.75);font-weight:500}
+
+/* MARQUEE */
+.marquee{background:linear-gradient(90deg,var(--sky-deep),var(--aqua),var(--sky-deep));padding:13px 0;overflow:hidden;white-space:nowrap}
+.marquee-inner{display:inline-block;animation:scroll 25s linear infinite;font-size:0.78em;letter-spacing:3px;text-transform:uppercase;color:var(--white);font-weight:600}
+@keyframes scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+/* SECTIONS */
+section{padding:88px 48px}
+.section-inner{max-width:1200px;margin:0 auto}
+.eyebrow{font-size:0.72em;font-weight:600;letter-spacing:4px;text-transform:uppercase;color:var(--sky);margin-bottom:12px}
+.section-title{font-family:var(--ff-display);font-size:clamp(1.8em,3vw,2.6em);color:var(--dark);margin-bottom:16px;letter-spacing:-0.5px;font-weight:800}
+.section-sub{color:var(--mid);font-size:1em;line-height:1.75;max-width:580px;margin-bottom:48px}
+
+/* SERVICES */
+.services{background:var(--off)}
+.services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+.service-card{background:var(--white);border-radius:16px;padding:32px;border:1px solid #e0f2fe;transition:all 0.25s;position:relative;overflow:hidden}
+.service-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--sky),var(--aqua))}
+.service-card:hover{transform:translateY(-4px);box-shadow:0 12px 40px rgba(14,165,233,0.15);border-color:var(--sky)}
+.service-icon{font-size:2.2em;margin-bottom:16px;display:block}
+.service-name{font-family:var(--ff-display);font-size:1.1em;color:var(--dark);margin-bottom:10px;font-weight:700}
+.service-desc{color:var(--mid);font-size:0.88em;line-height:1.7;margin-bottom:16px}
+.service-price{color:var(--sky);font-weight:700;font-size:0.88em;display:flex;align-items:center;gap:6px}
+
+/* WHY */
+.why{background:var(--white)}
+.why-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+.why-content{}
+.why-list{display:flex;flex-direction:column;gap:20px;margin-top:32px}
+.why-item{display:flex;gap:16px;align-items:flex-start}
+.why-icon-wrap{width:48px;height:48px;background:linear-gradient(135deg,var(--sky),var(--aqua));border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:1.2em;flex-shrink:0}
+.why-text strong{display:block;color:var(--dark);font-weight:600;margin-bottom:4px;font-size:0.95em}
+.why-text span{color:var(--mid);font-size:0.85em;line-height:1.65}
+.why-visual{background:linear-gradient(135deg,var(--navy),var(--pool));border-radius:20px;padding:40px;color:var(--white)}
+.why-visual-title{font-family:var(--ff-display);font-size:1.3em;font-weight:800;margin-bottom:24px;color:var(--sky)}
+.why-stats{display:flex;flex-direction:column;gap:16px}
+.why-stat-row{display:flex;justify-content:space-between;align-items:center;padding:14px 0;border-bottom:1px solid rgba(255,255,255,0.08)}
+.why-stat-row:last-child{border-bottom:none}
+.why-stat-label{font-size:0.85em;color:rgba(255,255,255,0.6)}
+.why-stat-val{font-family:var(--ff-display);font-size:1.4em;font-weight:800;color:var(--sky)}
+
+/* SERVICE AREAS */
+.areas{background:var(--off)}
+.areas-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px;margin-top:40px}
+.area-chip{background:var(--white);border:1px solid #bae6fd;border-radius:8px;padding:12px 16px;display:flex;align-items:center;gap:8px;font-size:0.85em;font-weight:500;color:var(--navy);transition:all 0.2s}
+.area-chip:hover{background:var(--sky);color:var(--white);border-color:var(--sky)}
+.area-dot{width:6px;height:6px;border-radius:50%;background:var(--sky);flex-shrink:0}
+
+/* REVIEWS */
+.reviews{background:var(--white)}
+.reviews-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px;margin-top:48px}
+.review-card{background:var(--off);border-radius:16px;padding:28px;border:1px solid #e0f2fe}
+.stars{color:var(--sand);font-size:1em;margin-bottom:12px;letter-spacing:2px}
+.review-text{color:var(--mid);font-size:0.9em;line-height:1.75;margin-bottom:16px;font-style:italic}
+.reviewer{color:var(--navy);font-weight:700;font-size:0.85em}
+.reviewer span{color:var(--sky);font-weight:400;font-size:0.9em}
+
+/* CTA */
+.cta-section{background:linear-gradient(135deg,var(--navy) 0%,var(--pool) 100%);padding:88px 48px;text-align:center;position:relative;overflow:hidden}
+.cta-section::before{content:'☀️';position:absolute;font-size:30vw;opacity:0.04;top:50%;left:50%;transform:translate(-50%,-50%);pointer-events:none}
+.cta-section h2{font-family:var(--ff-display);font-size:clamp(2em,4vw,3em);color:var(--white);margin-bottom:16px;letter-spacing:-1px;font-weight:800;position:relative}
+.cta-section p{font-size:1.05em;color:rgba(255,255,255,0.65);max-width:500px;margin:0 auto 36px;line-height:1.75;position:relative}
+.btn-sand{background:var(--sand);color:var(--dark);padding:16px 44px;border-radius:8px;text-decoration:none;font-weight:700;font-size:1em;display:inline-block;transition:all 0.2s;box-shadow:0 4px 24px rgba(240,165,0,0.4);position:relative}
+.btn-sand:hover{background:var(--sand2);transform:translateY(-2px)}
+
+/* JESSE QUOTE */
+.quote-bar{background:var(--dark);padding:20px 48px;text-align:center}
+.quote-bar p{color:rgba(255,255,255,0.5);font-size:0.82em;font-style:italic}
+.quote-bar strong{color:var(--sky)}
+
+footer{background:#060f1e;padding:48px 48px 28px;text-align:center;border-top:1px solid rgba(14,165,233,0.1)}
+.footer-logo{font-family:var(--ff-display);font-size:1.4em;font-weight:800;color:var(--sky);margin-bottom:12px}
+.footer-links{display:flex;gap:20px;justify-content:center;margin-bottom:16px;flex-wrap:wrap}
+.footer-links a{color:rgba(255,255,255,0.35);text-decoration:none;font-size:0.82em;transition:color 0.2s}
+.footer-links a:hover{color:var(--sky)}
+.footer-copy{font-size:0.75em;color:rgba(255,255,255,0.18)}
+
+@media(max-width:900px){
+  nav{padding:0 20px}.nav-links{display:none}
+  .hero-content{grid-template-columns:1fr;padding:110px 24px 80px;gap:40px}
+  .hero-right{display:none}
+  .why-grid{grid-template-columns:1fr}
+  section{padding:64px 24px}
+  .cta-section{padding:64px 24px}
+  footer{padding:40px 24px 24px}
+  .quote-bar{padding:20px 24px}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="/" class="nav-logo">
+    <span class="nav-logo-icon">🏊</span>
+    <span class="nav-logo-text">Arizona Pool <span>Cleaning Pro</span></span>
+  </a>
+  <div class="nav-links">
+    <a href="#services">Services</a>
+    <a href="#areas">Service Areas</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#quote" class="nav-cta">Free Quote</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<div class="hero" id="home">
+  <div class="hero-bg"></div>
+  <div class="hero-pool"></div>
+  <div class="hero-content">
+    <div class="hero-left">
+      <div class="hero-tag">🌞 Arizona's Pool Cleaning Experts</div>
+      <h1>Crystal Clear<em>Pools. All Year.</em></h1>
+      <p class="hero-sub">Arizona's heat never takes a break — and neither do we. Professional pool cleaning, chemical balancing, and equipment maintenance across the entire Phoenix metro and beyond.</p>
+      <div class="hero-btns">
+        <a href="#quote" class="btn-sky">Get a Free Quote</a>
+        <a href="#services" class="btn-ghost">See Services →</a>
+      </div>
+      <div class="hero-trust">
+        <div class="trust-item"><span class="trust-icon">✓</span> Licensed & Insured</div>
+        <div class="trust-item"><span class="trust-icon">✓</span> Weekly Service Available</div>
+        <div class="trust-item"><span class="trust-icon">✓</span> Free First Inspection</div>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="pool-visual">
+        <div class="pool-stat-grid">
+          <div class="pool-stat"><div class="pool-stat-num">500+</div><div class="pool-stat-label">Pools Serviced</div></div>
+          <div class="pool-stat"><div class="pool-stat-num">5★</div><div class="pool-stat-label">Avg Rating</div></div>
+          <div class="pool-stat"><div class="pool-stat-num">12+</div><div class="pool-stat-label">Cities Covered</div></div>
+          <div class="pool-stat"><div class="pool-stat-num">365</div><div class="pool-stat-label">Days a Year</div></div>
+        </div>
+        <div class="pool-service-list">
+          <div class="pool-service-item"><span class="pool-service-check">💧</span><span class="pool-service-text">Weekly cleaning & skimming</span></div>
+          <div class="pool-service-item"><span class="pool-service-check">🧪</span><span class="pool-service-text">Chemical balancing & testing</span></div>
+          <div class="pool-service-item"><span class="pool-service-check">⚙️</span><span class="pool-service-text">Equipment inspection & repair</span></div>
+          <div class="pool-service-item"><span class="pool-service-check">🦠</span><span class="pool-service-text">Algae treatment & prevention</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MARQUEE -->
+<div class="marquee">
+  <div class="marquee-inner">🏊 Weekly Pool Cleaning &nbsp;&nbsp; 🧪 Chemical Balancing &nbsp;&nbsp; 🔧 Equipment Repair &nbsp;&nbsp; 🦠 Algae Treatment &nbsp;&nbsp; 💧 Filter Cleaning &nbsp;&nbsp; ☀️ Arizona Year-Round Service &nbsp;&nbsp; 🏊 Weekly Pool Cleaning &nbsp;&nbsp; 🧪 Chemical Balancing &nbsp;&nbsp; 🔧 Equipment Repair &nbsp;&nbsp; 🦠 Algae Treatment &nbsp;&nbsp; 💧 Filter Cleaning &nbsp;&nbsp; ☀️ Arizona Year-Round Service &nbsp;&nbsp;</div>
+</div>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+  <div class="section-inner">
+    <div class="eyebrow">What We Do</div>
+    <h2 class="section-title">Pool Services & Pricing</h2>
+    <p class="section-sub">From weekly maintenance to emergency algae treatment — we keep your Arizona pool sparkling clean and swim-ready every single day of the year.</p>
+    <div class="services-grid">
+      <div class="service-card"><span class="service-icon">💧</span><div class="service-name">Weekly Pool Cleaning</div><div class="service-desc">Skimming, brushing, vacuuming, and basket emptying every week. Your pool stays clean without you lifting a finger — even through Arizona's dusty monsoon season.</div><div class="service-price">💰 Starting at $99/month</div></div>
+      <div class="service-card"><span class="service-icon">🧪</span><div class="service-name">Chemical Balancing</div><div class="service-desc">Professional testing and balancing of pH, chlorine, alkalinity, and stabilizer levels. Arizona's intense sun burns through chemicals fast — we keep your water perfectly balanced.</div><div class="service-price">💰 Included in weekly service</div></div>
+      <div class="service-card"><span class="service-icon">🦠</span><div class="service-name">Algae Treatment</div><div class="service-desc">Green, black, or mustard algae — we eliminate it fast and prevent it from coming back. Arizona's heat makes algae growth aggressive. We stay ahead of it so you don't have to.</div><div class="service-price">💰 Starting at $150</div></div>
+      <div class="service-card"><span class="service-icon">⚙️</span><div class="service-name">Equipment Repair</div><div class="service-desc">Pumps, filters, heaters, lights, and automation systems — we diagnose and repair all pool equipment. Arizona heat is hard on pool equipment. We keep everything running.</div><div class="service-price">💰 Free diagnosis with service</div></div>
+      <div class="service-card"><span class="service-icon">🔍</span><div class="service-name">Pool Inspection</div><div class="service-desc">Comprehensive inspection of your pool's structure, equipment, and water chemistry. Perfect for new homebuyers or anyone who wants to know exactly what condition their pool is in.</div><div class="service-price">💰 Starting at $75</div></div>
+      <div class="service-card"><span class="service-icon">✨</span><div class="service-name">Pool Opening & Closing</div><div class="service-desc">Full startup and shutdown service including equipment checks, chemical startup, and cover removal or installation. Get your pool season-ready the right way.</div><div class="service-price">💰 Starting at $199</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section class="why" id="why">
+  <div class="section-inner">
+    <div class="why-grid">
+      <div class="why-content">
+        <div class="eyebrow">Why Choose Us</div>
+        <h2 class="section-title">Arizona Pool Experts You Can Trust</h2>
+        <div class="why-list">
+          <div class="why-item"><div class="why-icon-wrap">☀️</div><div class="why-text"><strong>Built for Arizona's Climate</strong><span>Arizona's extreme heat, monsoon dust, and year-round swim season demand a pool service that understands this specific environment. We do.</span></div></div>
+          <div class="why-item"><div class="why-icon-wrap">📅</div><div class="why-text"><strong>Consistent Weekly Schedule</strong><span>Same technician, same day, every week. No surprises, no cancellations, no excuses. Your pool gets cleaned on schedule every time.</span></div></div>
+          <div class="why-item"><div class="why-icon-wrap">📱</div><div class="why-text"><strong>Service Reports After Every Visit</strong><span>Photo report sent to your phone after every cleaning so you can see exactly what was done — even when you're not home.</span></div></div>
+          <div class="why-item"><div class="why-icon-wrap">🛡️</div><div class="why-text"><strong>Licensed, Insured & Background Checked</strong><span>Every technician is fully licensed, insured, and background checked. Complete peace of mind every time we're at your home.</span></div></div>
+        </div>
+      </div>
+      <div class="why-visual">
+        <div class="why-visual-title">Arizona Pool Facts</div>
+        <div class="why-stats">
+          <div class="why-stat-row"><span class="why-stat-label">Avg Arizona pool temp (summer)</span><span class="why-stat-val">92°F</span></div>
+          <div class="why-stat-row"><span class="why-stat-label">Pools in Arizona</span><span class="why-stat-val">1M+</span></div>
+          <div class="why-stat-row"><span class="why-stat-label">Swim days per year</span><span class="why-stat-val">300+</span></div>
+          <div class="why-stat-row"><span class="why-stat-label">Chemical usage vs national avg</span><span class="why-stat-val">2.5x</span></div>
+          <div class="why-stat-row"><span class="why-stat-label">Algae risk in AZ summer</span><span class="why-stat-val">Very High</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICE AREAS -->
+<section class="areas" id="areas">
+  <div class="section-inner">
+    <div class="eyebrow">Where We Serve</div>
+    <h2 class="section-title">Serving All of the Phoenix Metro</h2>
+    <p class="section-sub">From Scottsdale to Surprise, we cover the entire Phoenix metropolitan area and surrounding communities across Arizona.</p>
+    <div class="areas-grid">
+      <div class="area-chip"><span class="area-dot"></span>Phoenix</div>
+      <div class="area-chip"><span class="area-dot"></span>Scottsdale</div>
+      <div class="area-chip"><span class="area-dot"></span>Tempe</div>
+      <div class="area-chip"><span class="area-dot"></span>Mesa</div>
+      <div class="area-chip"><span class="area-dot"></span>Chandler</div>
+      <div class="area-chip"><span class="area-dot"></span>Gilbert</div>
+      <div class="area-chip"><span class="area-dot"></span>Glendale</div>
+      <div class="area-chip"><span class="area-dot"></span>Peoria</div>
+      <div class="area-chip"><span class="area-dot"></span>Surprise</div>
+      <div class="area-chip"><span class="area-dot"></span>Goodyear</div>
+      <div class="area-chip"><span class="area-dot"></span>Avondale</div>
+      <div class="area-chip"><span class="area-dot"></span>Buckeye</div>
+      <div class="area-chip"><span class="area-dot"></span>Queen Creek</div>
+      <div class="area-chip"><span class="area-dot"></span>San Tan Valley</div>
+      <div class="area-chip"><span class="area-dot"></span>Cave Creek</div>
+      <div class="area-chip"><span class="area-dot"></span>Fountain Hills</div>
+      <div class="area-chip"><span class="area-dot"></span>Paradise Valley</div>
+      <div class="area-chip"><span class="area-dot"></span>Anthem</div>
+      <div class="area-chip"><span class="area-dot"></span>Ahwatukee</div>
+      <div class="area-chip"><span class="area-dot"></span>Maricopa</div>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="reviews" id="reviews">
+  <div class="section-inner">
+    <div class="eyebrow">What Customers Say</div>
+    <h2 class="section-title">5-Star Pool Service Across Arizona</h2>
+    <div class="reviews-grid">
+      <div class="review-card"><div class="stars">★★★★★</div><div class="review-text">"My pool went from green to crystal clear in 48 hours. They came out same day and fixed an algae problem that two other companies couldn't handle. Absolutely incredible service."</div><div class="reviewer">Mike T. <span>· Scottsdale, AZ</span></div></div>
+      <div class="review-card"><div class="stars">★★★★★</div><div class="review-text">"Been using them for two years now. Every week like clockwork — same tech, same day, and my pool always looks perfect. I get a photo report after every visit. Worth every penny."</div><div class="reviewer">Jennifer R. <span>· Gilbert, AZ</span></div></div>
+      <div class="review-card"><div class="stars">★★★★★</div><div class="review-text">"As a new homeowner in Arizona I had no idea how to maintain a pool in this heat. They set everything up perfectly and explained every step. My water chemistry has been perfect for months."</div><div class="reviewer">Carlos M. <span>· Chandler, AZ</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section" id="quote">
+  <div class="section-inner">
+    <h2>Ready for a Crystal Clear Pool?</h2>
+    <p>Get your free quote today. We serve all of Phoenix metro — same week service available in most areas.</p>
+    <a href="tel:9036367511" class="btn-sand">📞 Call for a Free Quote</a>
+    <p style="margin-top:16px;font-size:0.82em;color:rgba(255,255,255,0.35);position:relative">No contracts required · Cancel anytime · Licensed & insured</p>
+  </div>
+</section>
+
+<!-- JESSE QUOTE -->
+<div class="quote-bar">
+  <p>"I believe the unbelievable, I receive the impossible, because it's doable." — <strong>Jesse Duplantis</strong></p>
+</div>
+
+<footer>
+  <div class="footer-logo">🏊 Arizona Pool Cleaning Pro</div>
+  <div class="footer-links">
+    <a href="#services">Services</a>
+    <a href="#areas">Service Areas</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#quote">Get a Quote</a>
+  </div>
+  <p class="footer-copy">© 2026 Arizona Pool Cleaning Pro. Part of the Dominion Brand Family. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
