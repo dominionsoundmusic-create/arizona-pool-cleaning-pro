@@ -20,3 +20,27 @@
 /weekly-pool-cleaning/*  /pool-cleaning  301
 /weekly-pool-cleaning/  /pool-cleaning  301
 /indes.html  /  301
+
+# Sep 25 2026 - automatic blog posts retired (templated). Each old post points to the closest real page.
+/blog/pool-equipment-repairs-you-should-never-diy-1785937838830.html  /pool-service  301
+/blog/pool-equipment-repairs-you-should-never-diy-1785937838830  /pool-service  301
+/blog/saltwater-vs-chlorine-pools-which-is-easier-to-maintain-1786024162709.html  /pool-cleaning  301
+/blog/saltwater-vs-chlorine-pools-which-is-easier-to-maintain-1786024162709  /pool-cleaning  301
+/blog/how-much-does-weekly-pool-service-cost-in-yuma-1786366324080.html  /pool-service  301
+/blog/how-much-does-weekly-pool-service-cost-in-yuma-1786366324080  /pool-service  301
+/blog/how-to-keep-algae-out-of-a-pool-in-summer-1786452663408.html  /pool-cleaning  301
+/blog/how-to-keep-algae-out-of-a-pool-in-summer-1786452663408  /pool-cleaning  301
+/blog/what-weekly-pool-service-actually-includes-1786970708691.html  /pool-service  301
+/blog/what-weekly-pool-service-actually-includes-1786970708691  /pool-service  301
+/blog/pool-equipment-repairs-you-should-never-diy-1786192451954.html  /pool-service  301
+/blog/pool-equipment-repairs-you-should-never-diy-1786192451954  /pool-service  301
+/blog/why-your-pool-turns-green-and-how-to-fix-it-1786106900978.html  /pool-cleaning  301
+/blog/why-your-pool-turns-green-and-how-to-fix-it-1786106900978  /pool-cleaning  301
+/blog/pool-equipment-repairs-you-should-never-diy-1785851710267.html  /pool-service  301
+/blog/pool-equipment-repairs-you-should-never-diy-1785851710267  /pool-service  301
+/blog/saltwater-vs-chlorine-pools-which-is-easier-to-maintain-1785707755752.html  /pool-cleaning  301
+/blog/saltwater-vs-chlorine-pools-which-is-easier-to-maintain-1785707755752  /pool-cleaning  301
+/blog/saltwater-vs-chlorine-pools-which-is-easier-to-maintain-1786278972887.html  /pool-cleaning  301
+/blog/saltwater-vs-chlorine-pools-which-is-easier-to-maintain-1786278972887  /pool-cleaning  301
+/blog/*  /  301
+/blog  /  301
