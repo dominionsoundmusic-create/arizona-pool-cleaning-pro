@@ -18,6 +18,7 @@
 /weekly-pool-cleaning/*  /pool-service  301
 /weekly-pool-cleaning/  /pool-service  301
 /indes.html  /  301
+/indes  /  301
 
 # /pool-equipment-repair/ is a real page again (Oct 21 2026), so its old rule is gone. Its retired
 # city pages point to it one by one (a wildcard here would also cover the real page).
@@ -61,5 +62,6 @@
 /blog/what-weekly-pool-service-actually-includes-1786970708691  /pool-service  301
 /blog/why-your-pool-turns-green-and-how-to-fix-it-1786106900978.html  /my-pool-is-green/  301
 /blog/why-your-pool-turns-green-and-how-to-fix-it-1786106900978  /my-pool-is-green/  301
+/blog/  /  301
 /blog/*  /  301
 /blog  /  301
