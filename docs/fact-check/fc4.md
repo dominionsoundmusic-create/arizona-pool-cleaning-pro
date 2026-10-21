@@ -51,7 +51,7 @@ Totals: 28 claims checked, 22 confirmed, 1 corrected, 3 softened, 2 removed.
 | CDC: check that the deep-end main drain is visible | cdc.gov prevention page (search) | confirmed | |
 | CDC: drowning kills more children 1 to 4 than any other cause | cdc.gov drowning (search) | confirmed | |
 | Most of those drownings happen in home pools | CDC Risk Factors for Drowning (search) | confirmed | Source was missing; CDC Risk Factors page added |
-| 2017 to 2018 study: about 71,000 winter visitors, 30+ days, December to May | research climate-seasons.md 29 | confirmed (research file) | My two searches did not resurface the 71,000 total; relied on the research file's verified summary |
+| 2017 to 2018 study: about 71,000 winter visitors, 30+ days, December to May | visityuma.com / tourism.az.gov (2 searches) | removed | Not resurfaced in my searches; fc1 also could not confirm (lead's note). Replaced with Yuma County's verified "population grows by about 90,000 in winter" (research climate-seasons.md 30, yumacountyaz.gov About the County), and "many own homes with pools" softened to "some". Visit Yuma and AOT study sources dropped |
 | NWS: about 118 days at or above 100 F | research climate-seasons.md 1 | confirmed | |
 | Visit Yuma: about 91% of possible daylight hours | research climate-seasons.md 10 | confirmed | |
 | Sunlight breaks down chlorine | PHTA cyanuric acid sheet; CDC | confirmed | |
@@ -63,7 +63,7 @@ Totals: 28 claims checked, 22 confirmed, 1 corrected, 3 softened, 2 removed.
 | ROC contractor search | research licensing-safety.md | confirmed | |
 | Mixing the wrong products can release toxic gas | cdc.gov (search) | confirmed | |
 
-Totals: 19 claims checked, 19 confirmed, 0 corrected, 0 softened, 0 removed (1 source added).
+Totals: 19 claims checked, 18 confirmed, 0 corrected, 0 softened, 1 removed (replaced with a verified county figure; 2 sources added, 2 dropped).
 
 ## /my-pool-is-green/ (src/pages/my-pool-is-green.html)
 
@@ -82,7 +82,7 @@ Totals: 19 claims checked, 19 confirmed, 0 corrected, 0 softened, 0 removed (1 s
 | First 100 F day late April, last early October | research climate-seasons.md 2 (Apr 25, Oct 6) | confirmed | |
 | Visit Yuma: about 91% of possible sunshine | research climate-seasons.md 10 | confirmed | |
 | NWS monsoon June 15 to September 30 | research climate-seasons.md 24 | confirmed | |
-| NOAA TM-290: Yuma area among places with blowing dust and dust storms | research climate-seasons.md 25 | confirmed | |
+| NOAA TM-290: Yuma area among places with blowing dust and dust storms | research climate-seasons.md 25 | confirmed | Page makes no late July/early August peak claim (lead noted that peak is stated for Phoenix) |
 | CDC: drowning kills more children 1 to 4 than any other cause | cdc.gov (search) | confirmed | |
 | Yuma County green pools / Service Request / (928) 317-4584 | yumacountyaz.gov (search) | confirmed | |
 | "One of the most searched pool questions in the country" | none | softened | Unsupported ranking; now "a very common pool question" |
@@ -92,6 +92,6 @@ Totals: 18 claims checked, 14 confirmed, 2 corrected, 2 softened, 0 removed.
 
 ## Overall
 
-65 claims checked: 55 confirmed, 3 corrected, 5 softened, 2 removed. Sources added: PHTA salt-cell scale fact sheet and PHTA Technical Bulletin (tile page), CDC Risk Factors for Drowning (green cleanup page).
+65 claims checked: 54 confirmed, 3 corrected, 5 softened, 3 removed. Sources added: PHTA salt-cell scale fact sheet and PHTA Technical Bulletin (tile page), CDC Risk Factors for Drowning and Yuma County About the County (green cleanup page). Sources dropped: Visit Yuma and AOT winter visitor study (green cleanup page).
 Searches used: 20.
 Validation (build into /tmp/claude-0/fc4/dist): check.py 0 errors on all three URLs; similarity.py no FAIL (max same-type 1.9%, Tucson max 1.2%, Phoenix max 1.2%, no shared 8-word runs); grep_check.py 0 hits.

@@ -35,13 +35,13 @@ Pages: /pool-maintenance-cost/, /is-a-pool-service-worth-it/, /yuma-pool-mainten
 | City of Yuma: hard water, 18 to 22 grains per gallon | research water-utilities-rules.md | confirmed | |
 | Monsoon June 15 to September 30 | research climate-seasons.md | confirmed | |
 | Dust storm "can pack the baskets and clog a filter by morning" | none | softened | Now "can fill the skimmer baskets and load up a filter quickly" |
-| 2017 to 2018 study: about 71,000 winter visitors, 30+ days, December to May | Visit Yuma / AZ Office of Tourism (ASU study) | softened | Study existence, ASU authorship and 30-day definition confirmed today; 71,000 not re-shown (relies on research bank). Wording changed from "Visit Yuma study counted" to "study done for Visit Yuma estimated" |
+| 2017 to 2018 study: about 71,000 winter visitors, 30+ days, December to May | Visit Yuma / AZ Office of Tourism (ASU study) | removed | 71,000 not found in 2 searches (fc1 also failed in 3). Replaced with Yuma County's "population grows by about 90,000 in winter" (research item 30, confirmed by fc1); source swapped to Yuma County About the County |
 | APS on-peak 4 to 7 p.m. weekdays; pool pump off-peak | aps.com TOU 4pm-7pm | confirmed | |
 | APS winter super off-peak 10 a.m. to 3 p.m. weekdays, November to April; up to $120 a year | aps.com Energy Saving Tips | confirmed | |
 | Wellton electricity from WMIDD | research water-utilities-rules.md | confirmed | |
 | CDC chemical storage and never mix | research licensing-safety.md | confirmed | |
 
-Totals: 29 claims checked, 26 confirmed, 1 corrected, 2 softened, 0 removed.
+Totals: 29 claims checked, 26 confirmed, 1 corrected, 1 softened, 1 removed.
 
 ## /is-a-pool-service-worth-it/
 
@@ -55,14 +55,14 @@ Totals: 29 claims checked, 26 confirmed, 1 corrected, 2 softened, 0 removed.
 | CDC: sunlight uses up chlorine | cdc.gov (research) | confirmed | |
 | NOAA memo: Yuma dust storm area, peak late July and early August | weather.gov TM-290 | softened | Memo names SW Arizona (Yuma) for dust walls; for the low desert region it shows a sharp July increase; late July to early August is one pattern's peak. Now "pick up sharply in July with the summer thunderstorms" |
 | EPA: uncovered pool loses 12,000 to 31,000 gallons a year, depending on location | epa.gov WaterSense | confirmed | |
-| 71,000 winter visitors, 30+ days, December to May (study for Visit Yuma) | visityuma.com / research | confirmed | Wording already "study for Visit Yuma estimated"; figure from research bank |
+| 71,000 winter visitors, 30+ days, December to May (study for Visit Yuma) | visityuma.com / tourism.az.gov | removed | Not confirmable; replaced with Yuma County's about 90,000 winter population increase, source swapped |
 | Yuma County: green pools a major West Nile mosquito breeding source; Vector Control (928) 317-4584 | research water-utilities-rules.md item 27 | confirmed | |
 | CDC 2019: over 4,500 ED visits a year from pool chemical injuries | research licensing-safety.md item 21 | confirmed | |
 | CDC: drowning the top cause of death for ages 1 to 4 | research licensing-safety.md item 22 | confirmed | |
 | Angi: pump lasts 8 to 15 years | research costs-equipment.md item 46 | confirmed | |
 | ROC license lookup | roc.az.gov | confirmed | |
 
-Totals: 14 claims checked, 13 confirmed, 0 corrected, 1 softened, 0 removed.
+Totals: 14 claims checked, 12 confirmed, 0 corrected, 1 softened, 1 removed.
 
 ## /yuma-pool-maintenance-schedule/
 
@@ -79,7 +79,7 @@ Totals: 14 claims checked, 13 confirmed, 0 corrected, 1 softened, 0 removed.
 | Dust storms peak late July and early August | weather.gov TM-290 | softened | Now "pick up sharply in July with the summer thunderstorms" |
 | About 25 days a year at or above 110 F, mostly June to August | weather.gov/psr/ExtremeTemps | confirmed | 1991 to 2020 normal 25; average first June 11, last August 26 |
 | July average high 106.7 F | weather.gov July 2026 Climate summary | confirmed | Listed as 1991 to 2020 normal against 108.4 observed |
-| 71,000 winter visitors 30+ days | research / visityuma.com | softened | "counted" changed to "estimated" |
+| 71,000 winter visitors 30+ days; intro credits "a Visit Yuma study" | visityuma.com / tourism.az.gov | removed | Replaced with Yuma County's about 90,000; row label "December to May" changed to "Winter months"; intro now credits Yuma County; source swapped |
 | 118 days at or above 100 F | weather.gov | confirmed | |
 | Visit Yuma: sun about 91 percent of daylight hours | visityuma.com/about-yuma/climate | confirmed | |
 | EPA/NWS UV index 11+ is extreme | epa.gov uviguide | confirmed | |
@@ -92,7 +92,7 @@ Totals: 14 claims checked, 13 confirmed, 0 corrected, 1 softened, 0 removed.
 | Southwest Gas 877-860-6020; leave, no switches, call 911 | research water-utilities-rules.md item 17 | confirmed | |
 | FAQ: "No law sets a schedule for a private home pool" | none | softened | Unverified legal claim; now "The schedule on this page is practical advice, not a legal rule" |
 
-Totals: 23 claims checked, 19 confirmed, 0 corrected, 4 softened, 0 removed.
+Totals: 23 claims checked, 19 confirmed, 0 corrected, 3 softened, 1 removed.
 
 ## /privacy-policy.html
 
@@ -119,7 +119,7 @@ Totals: 4 claims checked, 4 confirmed, 0 corrected, 0 softened, 0 removed.
 
 ## Overall
 
-75 claims checked: 67 confirmed, 1 corrected, 7 softened, 0 removed. Searches used: 23.
+75 claims checked: 66 confirmed, 1 corrected, 5 softened, 3 removed. (Updated after the lead's note: the 71,000 winter visitor figure was removed on all three guide pages for cross-page consistency; the TM-290 dust peak was already softened to "rises sharply in July".) Searches used: 23.
 Rule breaches found: none (no company names, no places outside Yuma County, no dosing instructions, no "we clean/repair").
 Validation: build to /tmp/claude-0/fc5/dist OK; check.py 0 errors / 0 warnings for all five pages; similarity no FAIL
 (max 1.9% Yuma pairs, 1.2% vs Tucson, 0.6% vs Phoenix, no shared 8-word runs); grep_check 0 hits.
