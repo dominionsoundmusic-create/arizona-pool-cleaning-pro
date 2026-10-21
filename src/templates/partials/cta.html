@@ -1,0 +1,16 @@
+{% set b = site.business %}
+<section class="band band--navy cta" aria-labelledby="cta-title">
+  <div class="wide cta__grid">
+    <div class="cta__text">
+      <h2 id="cta-title">{{ page.cta_title | default('Talk to a local pool company today') }}</h2>
+      <p>{{ page.cta_text | default('Ring the line at any hour, say what is happening with the pool and where in the Yuma area it is, and the call is passed to an independent, locally owned pool service company. That company looks at the pool itself and sets its own price.') }}</p>
+      <p><a class="btn btn--orange btn--big" href="tel:{{ b.phone_tel }}">{{ site.cta.primary_label }}</a></p>
+    </div>
+    <ul class="cta__facts">
+      <li><strong>Day or night</strong>An automated assistant picks up every call, weekends and holidays too.</li>
+      <li><strong>No charge to you</strong>The line never bills callers. Any price comes from the pool company.</li>
+      <li><strong>Look up the license</strong>For repair or equipment work, ask for the company's ROC number and search it on the state site.</li>
+      <li><strong>You decide</strong>Hear what the company found and what it costs before you agree to anything.</li>
+    </ul>
+  </div>
+</section>
