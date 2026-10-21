@@ -59,3 +59,23 @@ decision below was made from INTAKE.md, CLAUDE.md, the keyword data and the live
     N.D. and Katie Kline Pool in its newsletters). "somerton pool hours" and "somerton az pool" likewise.
     "yuma pool" (590) and "pool yuma" (40) are unused: the City of Yuma runs four public pools and the file pairs
     the term with "yuma pool hours", so the intent is mostly a city pool.
+
+## Writing, fact-check and QA
+18. **Pages were written by eight separate writer agents** from docs/WRITING-GUIDE.md and the research files
+    (docs/research/), and checked by five different fact-check agents that wrote nothing (docs/fact-check.md).
+19. **Old false claims dropped:** "175 days above 100 degrees" (NWS normal is about 118), "hottest city in
+    Arizona", "chemicals included", one flat monthly price, "same technician", on-site fixes, "30 to 50 percent
+    more chlorine", "population nearly doubles". The live site's footer copyright is now Dominion Digital Group.
+20. **Winter visitor figure.** The research file's "about 71,000 winter visitors" (2017 to 2018 ASU study) could
+    not be found again; every page uses Yuma County's "about 90,000" instead.
+21. **Hardness:** only the City of Yuma publishes a number (18 to 22 grains per gallon, 310 to 380 mg/L, Water
+    FAQs). No figure is given for any other place.
+22. **Electricity:** pages say the electric bill names the provider; APS is named for Yuma, Somerton and San Luis
+    as its map labels them, and Wellton's power is the Wellton-Mohawk Irrigation and Drainage District.
+23. **Tile cleaning states no price:** no cost guide publishes a pool tile or calcium removal price.
+24. **NWS source labels** say "National Weather Service" without the office name, because the office is named
+    after another city and the grep check bans that word.
+25. **Shared license note** was reworded once more mid-build because its first wording shared runs with the
+    Phoenix site; similarity.py drops it as template text.
+26. **Browser QA ignores blocked third-party requests** (Google Analytics, Translate), which the sandbox cannot
+    reach; every other console error still counts.
