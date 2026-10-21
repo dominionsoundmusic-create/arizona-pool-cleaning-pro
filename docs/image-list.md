@@ -18,7 +18,7 @@ right third of frame, well lit.
 Suggested order: the 1920x1080 heroes first (they show on screen straight away), then the
 in-body images page by page.
 
-Total: 18 images.
+Total: 10 images.
 
 ## 1. yuma-home-hero.jpg
 
@@ -99,67 +99,3 @@ Prompt: Wide cinematic landscape shot, subject positioned on right third of fram
 - Alt text: Pool filter, heater and salt cell plumbing on a concrete equipment pad beside a stucco wall in a desert backyard
 
 Prompt: Wide cinematic landscape shot, subject positioned on right third of frame, well lit, a residential pool equipment pad with a tall gray filter tank, a boxy pool heater, white PVC plumbing with valves and an inline salt cell on a concrete slab, a tan stucco block wall behind, crushed gravel with agave and a palo verde tree, the edge of a blue pool at the left, bare rocky desert mountains in the distance under a clear blue sky, realistic photo, no lake, no river, no text, no logos, no house numbers, no recognizable faces
-
-## 11. pool-maintenance-cost-hero.jpg
-
-- Size: 1920x1080 px
-- Page(s): /pool-maintenance-cost/
-- Alt text: Notepad and calculator on a shaded patio table beside a clear backyard pool with desert landscaping
-
-Prompt: Wide cinematic landscape shot, subject positioned on right third of frame, well lit, a blank notepad, a pen and a calculator on a shaded patio table beside a clear turquoise backyard swimming pool in Yuma, Arizona, a single-story sand-colored stucco house with a low tile roof, a block wall, crushed gravel landscaping with a palo verde tree, agave and ocotillo, two fan palms, bare rocky desert mountains in the distance, clear blue sky, bright afternoon light, realistic photo, no writing on the paper, no lake, no river, no text, no logos, no house numbers, no recognizable faces
-
-## 12. pool-pump-repair-hero.jpg
-
-- Size: 1920x1080 px
-- Page(s): /pool-pump-repair/
-- Alt text: A pool pump and filter tank on a concrete equipment pad beside a tan stucco wall and a backyard pool
-
-Prompt: Wide cinematic landscape shot, subject positioned on right third of frame, well lit, a residential pool pump with gray PVC pipes beside a tall filter tank on a clean concrete equipment pad, a tan stucco block wall behind, crushed gravel and an agave, the edge of a turquoise backyard pool on the left, a single-story stucco home with a low tile roof, a palo verde tree, bare rocky desert mountains in the distance under a clear blue sky, realistic photo, no lake, no river, no text, no logos, no house numbers, no recognizable faces
-
-## 13. pool-repair-hero.jpg
-
-- Size: 1920x1080 px
-- Page(s): /pool-repair/
-- Alt text: Backyard pool in the Yuma area with a waterline tile band, a skimmer lid on the deck and gravel desert landscaping
-
-Prompt: Wide cinematic landscape shot, subject positioned on right third of frame, well lit, a rectangular backyard pool with blue waterline tile and a round skimmer lid in a tan concrete deck, a single-story sand-colored stucco home with a low tile roof, a block wall, crushed gravel with agave, ocotillo and a palo verde tree, bare rocky desert mountains in the distance under a clear blue sky, realistic photo, no lake, no river, no text, no logos, no house numbers, no recognizable faces
-
-## 14. pool-service-hero.jpg
-
-- Size: 1920x1080 px
-- Page(s): /pool-service
-- Alt text: A person in a sun hat skimming a clear backyard pool with a long leaf net beside a tan stucco home with desert plants
-
-Prompt: Wide cinematic landscape shot, subject positioned on right third of frame, well lit, a person in a wide sun hat seen from behind holding a long pole with a leaf net over a clear turquoise backyard pool, a single-story tan stucco home with a low tile roof and a covered patio, a block wall, crushed gravel with a palo verde tree, an agave and one fan palm, bare rocky desert mountains in the distance under a clear blue sky, realistic photo, no lake, no river, no text, no logos, no house numbers, no recognizable faces
-
-## 15. pool-tile-cleaning-hero.jpg
-
-- Size: 1920x1080 px
-- Page(s): /pool-tile-cleaning/
-- Alt text: A row of blue waterline tile along the edge of a clear backyard pool in bright sun
-
-Prompt: Wide cinematic landscape shot, subject positioned on right third of frame, well lit, a close view along the waterline of a backyard pool showing a clean row of blue and white glazed tile just above clear turquoise water, a tan travertine deck, a block wall with crushed gravel and an agave beyond, a single-story tan stucco home with a low tile roof, a date palm, bare rocky desert mountains in the far distance under a clear blue sky, realistic photo, no lake, no river, no text, no logos, no house numbers, no recognizable faces
-
-## 16. service-areas-hero.jpg
-
-- Size: 1920x1080 px
-- Page(s): /service-areas/
-- Alt text: A bright view over single-story desert homes with backyard pools, gravel yards and bare mountains beyond
-
-Prompt: Wide cinematic landscape shot, subject positioned on right third of frame, well lit, a high daytime view across a Yuma-area neighborhood of single-story tan, sand and white stucco homes with flat and low tile roofs, several turquoise backyard pools behind block walls on the right third, crushed gravel yards with palo verde and mesquite trees and a few fan palms, bare rocky desert mountains on the horizon, clear blue sky across the calm left side, realistic photo, no lake, no river, no text, no logos, no house numbers, no recognizable faces
-
-## 17. services-hero.jpg
-
-- Size: 1920x1080 px
-- Page(s): /services/
-- Alt text: A clear backyard pool beside a tan stucco home with a tidy equipment area, gravel landscaping and a palo verde tree
-
-Prompt: Wide cinematic landscape shot, subject positioned on right third of frame, well lit, a clean turquoise backyard pool behind a single-story sand-colored stucco home with a low tile roof, a neat pool equipment area with a pump and filter tank against the block wall on the right third, a leaf net and brush pole leaning nearby, crushed gravel landscaping with agave, ocotillo and a palo verde tree, bare rocky desert mountains in the distance, clear blue sky, realistic photo, no lake, no river, no text, no logos, no house numbers, no recognizable faces
-
-## 18. yuma-pool-maintenance-schedule-hero.jpg
-
-- Size: 1920x1080 px
-- Page(s): /yuma-pool-maintenance-schedule/
-- Alt text: Clear backyard pool beside a tan stucco home with gravel landscaping, a palo verde tree and bare desert mountains under a blue sky
-
-Prompt: Wide cinematic landscape shot, subject positioned on right third of frame, well lit, a clean turquoise backyard swimming pool with a leaf skimmer net resting on the deck beside a single-story tan stucco home with a low tile roof in Yuma, Arizona, block wall, crushed gravel landscaping with a palo verde tree, ocotillo and agave, two fan palms, bare rocky desert mountains in the distance, clear blue sky, bright morning light, realistic photo, no lake, no river, no text, no logos, no house numbers, no recognizable faces
