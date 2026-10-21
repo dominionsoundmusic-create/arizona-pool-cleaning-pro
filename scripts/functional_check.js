@@ -15,12 +15,12 @@ const { chromium } = require("playwright");
   ok("FAQ first open by default", await items[0].evaluate(e => e.open));
   await second.$eval("summary", s => s.click()); ok("FAQ item toggles open", await second.evaluate(e => e.open));
   const tels = await p.$$eval('a[href^="tel:"]', as => [...new Set(as.map(a => a.getAttribute("href")))]);
-  ok("all tel links +15203721083 " + tels.join(","), tels.length === 1 && tels[0] === "tel:+15203721083");
-  await p.hover('.has-sub:has(#sub-areas)'); ok("areas submenu on hover", await p.isVisible("#sub-areas"));
+  ok("all tel links +19286155224 " + tels.join(","), tels.length === 1 && tels[0] === "tel:+19286155224");
+  await p.hover('.has-sub:has(#sub-guides)'); ok("guides submenu on hover", await p.isVisible("#sub-guides"));
   await p.keyboard.press("Tab"); const f = await p.evaluate(() => document.activeElement.className); ok("first Tab focuses skip link (" + f + ")", f.includes("skip"));
   await p.click('.lang__btn[data-lang="es"]').catch(()=>{}); await p.waitForLoadState("load");
   const ck = (await p.context().cookies()).map(c => c.name + "=" + c.value).join(";"); ok("ES toggle sets googtrans cookie (" + ck + ")", /googtrans=\/en\/es/.test(ck));
   const r = await p.goto("http://127.0.0.1:" + (process.env.PORT || "8765") + "/404.html"); ok("404 page renders h1", (await p.textContent("h1")).length > 3);
-  for (const u of ["/", "/oro-valley-pool-service.html", "/privacy-policy.html"]) { await p.goto("http://127.0.0.1:" + (process.env.PORT || "8765") + "" + u); await p.evaluate(() => window.scrollTo(0, 3000)); await p.click('.site-footer a[href="/about/"]'); ok("footer link from " + u + " lands at top", (await p.evaluate(() => window.scrollY)) === 0); }
+  for (const u of ["/", "/pool-service.html", "/privacy-policy.html"]) { await p.goto("http://127.0.0.1:" + (process.env.PORT || "8765") + "" + u); await p.evaluate(() => window.scrollTo(0, 3000)); await p.click('.site-footer a[href="/about/"]'); ok("footer link from " + u + " lands at top", (await p.evaluate(() => window.scrollY)) === 0); }
   console.log(out.join("\n")); await b.close();
 })();

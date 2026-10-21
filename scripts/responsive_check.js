@@ -34,7 +34,7 @@ function pages(dir, out = []) {
     page.on("pageerror", (e) => errs.push(String(e)));
     // Third-party hosts (Google Analytics, Translate) cannot be reached from the sandbox; only local errors count.
     page.on("console", (m) => { if (m.type() === "error" && !/ERR_TUNNEL_CONNECTION_FAILED|ERR_NAME_NOT_RESOLVED|ERR_CONNECTION/.test(m.text())) errs.push(m.text()); });
-    const list = width > 1440 ? urls.filter((u) => u === "/" || u.includes("oro-valley-pool") || u === "/pool-light-repair/") : urls;
+    const list = width > 1440 ? urls.filter((u) => u === "/" || u === "/pool-service.html" || u === "/pool-repair/") : urls;
     for (const u of list) {
       errs = [];
       await page.goto(base + u, { waitUntil: "load" });
@@ -71,7 +71,7 @@ function pages(dir, out = []) {
       if (width >= 1024 && r.heroH !== null && r.heroH > 720) problems.push(`${width}px ${u}: hero ${r.heroH}px tall`);
       if (width >= 1024 && r.callBottom !== null && r.callBottom > r.vh) problems.push(`${width}px ${u}: call button below the fold (${r.callBottom} > ${r.vh})`);
       if (width >= 1440 && r.h1Left !== null && r.h1Left > Math.min(140, width * 0.055) + 2) problems.push(`${width}px ${u}: hero headline not on the left rail (left ${r.h1Left})`);
-      if (shots && (u === "/" || u === "/oro-valley-pool-service.html" || u === "/pool-light-repair/")) {
+      if (shots && (u === "/" || u === "/pool-service.html" || u === "/pool-repair/")) {
         fs.mkdirSync(shots, { recursive: true });
         await page.screenshot({ path: path.join(shots, `${width}${u.replace(/[\/.]/g, "_")}.png`), fullPage: width <= 1440 });
       }
