@@ -1,0 +1,165 @@
+{
+ "business": {
+  "name": "Yuma Pool Cleaning Pro",
+  "legal_name": "Dominion Digital Group",
+  "dba_note": "Yuma Pool Cleaning Pro is a d/b/a of Dominion Digital Group.",
+  "category": "Pool service referral line for Yuma and Yuma County",
+  "origin": "https://yumapoolcleaningpro.com",
+  "phone_display": "(928) 615-5224",
+  "phone_tel": "+19286155224",
+  "email": "",
+  "address_public": false,
+  "hours": "The phone line is answered 24 hours a day, 7 days a week by an automated assistant.",
+  "logo": "/images/logo.svg",
+  "logo_width": 211,
+  "logo_height": 64,
+  "theme_color": "#0d6b60",
+  "description": "A free phone line for pool service, pool cleaning and pool repair in Yuma and nearby Yuma County communities. An automated assistant answers 24/7 and transfers callers to an independent, locally owned pool service company.",
+  "short_disclosure": "Yuma Pool Cleaning Pro is a free phone line, not a pool company. It answers your call and connects you with an independent local pool service company, which inspects, quotes and does the work, and which you pay directly.",
+  "referral_disclosure": "Companies may pay a referral fee. Calling the line costs you nothing.",
+  "quote_text": "I believe the unbelievable, I receive the impossible, because it's doable.",
+  "quote_author": "Jesse Duplantis",
+  "scripture": "John 3:16",
+  "copyright": "© 2026 Dominion Digital Group. All rights reserved.",
+  "credit_text": "Designed by Dominion Web Design Pro",
+  "credit_url": "https://dominionwebdesignpro.com",
+  "license_lookup_url": "https://roc.az.gov/contractor-search"
+ },
+ "cta": {
+  "primary_label": "Call {phone}",
+  "secondary_label": "How the free line works",
+  "secondary_href": "/how-it-works/"
+ },
+ "analytics": {
+  "ga4": "G-STXQ0LYCST",
+  "gtm": ""
+ },
+ "social": {
+  "facebook": "https://www.facebook.com/yumapoolcleaningpro",
+  "instagram": "",
+  "google_business": "",
+  "tiktok": "",
+  "youtube": ""
+ },
+ "nav": [
+  {"label": "Services", "menu": "services", "href": "/services/"},
+  {"label": "Guides", "menu": "guides"},
+  {"label": "Service Areas", "href": "/service-areas/"},
+  {"label": "How It Works", "href": "/how-it-works/"},
+  {"label": "About", "href": "/about/"},
+  {"label": "FAQ", "href": "/faq/"},
+  {"label": "Contact", "href": "/contact/"}
+ ],
+ "footer_links": [
+  {"label": "All Services", "href": "/services/"},
+  {"label": "How It Works", "href": "/how-it-works/"},
+  {"label": "About", "href": "/about/"},
+  {"label": "FAQ", "href": "/faq/"},
+  {"label": "Contact", "href": "/contact/"},
+  {"label": "Privacy Policy", "href": "/privacy-policy.html"},
+  {"label": "Terms of Use", "href": "/terms.html"}
+ ],
+ "services": [
+  {
+   "slug": "pool-service",
+   "url": "/pool-service",
+   "name": "Weekly Pool Service in Yuma",
+   "short": "Weekly Pool Service",
+   "summary": "What an ongoing weekly service plan covers in Yuma, how visits change between July and January, and what to settle before you sign up.",
+   "card_image": "pool/skim-wide.jpg",
+   "card_alt": "A man standing in a pool skimming the surface with a leaf net, face not shown"
+  },
+  {
+   "slug": "pool-cleaning",
+   "url": "/pool-cleaning",
+   "name": "Pool Cleaning in Yuma",
+   "short": "Pool Cleaning",
+   "summary": "Skimming, brushing, vacuuming, baskets and the filter: the hands-on cleaning a Yuma pool needs, and when a one-time deep clean makes sense.",
+   "card_image": "pool/brush-wide.jpg",
+   "card_alt": "A hand pushing a blue pool brush along the floor of a clear pool"
+  },
+  {
+   "slug": "pool-repair",
+   "url": "/pool-repair/",
+   "name": "Pool Repair in Yuma",
+   "short": "Pool Repair",
+   "summary": "Leaks, cracks, lights, plumbing and surface damage: how a repair visit starts with a diagnosis, and which work Arizona licenses.",
+   "card_image": "pool/repair-wide.jpg",
+   "card_alt": "Two hands turning a wrench on an older pool pump fitting"
+  },
+  {
+   "slug": "pool-pump-repair",
+   "url": "/pool-pump-repair/",
+   "name": "Pool Pump Repair in Yuma",
+   "short": "Pool Pump Repair",
+   "summary": "A pump that hums, leaks, screeches or will not prime: the parts that wear, repair or replace, and the federal variable-speed rule.",
+   "card_image": "pool/equip-wide.jpg",
+   "card_alt": "Pool pump and plumbing beside a tall filter tank against a stucco wall"
+  },
+  {
+   "slug": "pool-equipment-repair",
+   "url": "/pool-equipment-repair/",
+   "name": "Pool Equipment Repair: Filters, Heaters and Salt Cells",
+   "short": "Pool Equipment Repair",
+   "summary": "Filters, heaters, heat pumps, salt cells and timers: what each part does, how long it tends to last, and when it needs a professional.",
+   "card_image": "pool/dusk-wide.jpg",
+   "card_alt": "Backyard pool lit at dusk with string lights over a stone patio"
+  },
+  {
+   "slug": "green-pool-cleanup",
+   "url": "/green-pool-cleanup/",
+   "name": "Green Pool Cleanup in Yuma",
+   "short": "Green Pool Cleanup",
+   "summary": "Bringing back a green or neglected pool, including one that sat all summer while its owners were away, and why murky water is a safety risk.",
+   "card_image": "pool/green-wide.jpg",
+   "card_alt": "Backyard pool with green water and leaves on the surface beside a block wall"
+  },
+  {
+   "slug": "pool-tile-cleaning",
+   "url": "/pool-tile-cleaning/",
+   "name": "Pool Tile Cleaning and Calcium Scale Removal",
+   "short": "Pool Tile and Calcium Cleaning",
+   "summary": "The white crust on the waterline tile: why hard water and evaporation leave it, how removal methods compare, and how to slow it down.",
+   "card_image": "pool/hero-3-wide.jpg",
+   "card_alt": "Long rectangular pool with white lounge chairs, palms and desert trees"
+  }
+ ],
+ "guides": [
+  {
+   "slug": "pool-maintenance-cost",
+   "url": "/pool-maintenance-cost/",
+   "name": "How Much Is Pool Maintenance in Yuma?",
+   "short": "Pool Maintenance Cost",
+   "summary": "Published national price ranges for monthly pool service, one-time cleanings and common repairs, what moves a Yuma quote, and how to compare quotes."
+  },
+  {
+   "slug": "pool-maintenance-schedule",
+   "url": "/yuma-pool-maintenance-schedule/",
+   "name": "Yuma Pool Maintenance Schedule",
+   "short": "Pool Maintenance Schedule",
+   "summary": "What to check weekly, monthly and season by season in Yuma, from the hottest months to dust storms to the months winter visitors are away."
+  },
+  {
+   "slug": "my-pool-is-green",
+   "url": "/my-pool-is-green/",
+   "name": "My Pool Is Green: How Do I Fix It?",
+   "short": "My Pool Is Green",
+   "summary": "Why pool water turns green, the safe first steps, why it can stay green after cleaning, and when to hand it to a pool company."
+  },
+  {
+   "slug": "is-a-pool-service-worth-it",
+   "url": "/is-a-pool-service-worth-it/",
+   "name": "Is a Pool Service Worth It in Yuma?",
+   "short": "Is a Pool Service Worth It?",
+   "summary": "Doing it yourself or hiring a company: the weekly time, the supplies, the summer risk and the months away, laid out so you can decide."
+  }
+ ],
+ "areas": [
+  {"slug": "yuma", "name": "Yuma", "city": "Yuma", "place_type": "City", "url": "/service-areas/#yuma"},
+  {"slug": "fortuna-foothills", "name": "Fortuna Foothills", "city": "Fortuna Foothills", "place_type": "Place", "url": "/service-areas/#fortuna-foothills"},
+  {"slug": "somerton", "name": "Somerton", "city": "Somerton", "place_type": "City", "url": "/service-areas/#somerton"},
+  {"slug": "san-luis", "name": "San Luis", "city": "San Luis", "place_type": "City", "url": "/service-areas/#san-luis"},
+  {"slug": "wellton", "name": "Wellton", "city": "Wellton", "place_type": "City", "url": "/service-areas/#wellton"},
+  {"slug": "gadsden", "name": "Gadsden", "city": "Gadsden", "place_type": "Place", "url": "/service-areas/#gadsden"}
+ ]
+}
