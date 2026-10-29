@@ -79,3 +79,12 @@ decision below was made from INTAKE.md, CLAUDE.md, the keyword data and the live
     Phoenix site; similarity.py drops it as template text.
 26. **Browser QA ignores blocked third-party requests** (Google Analytics, Translate), which the sandbox cannot
     reach; every other console error still counts.
+
+## Oct 29 2026: quote form added to /contact/
+Maurice asked for a short quote form with a "What do you need?" dropdown so he gets a text with the
+visitor's need. /contact/ now has the Netlify form `yuma-pool-contact` (fields name, phone, email,
+city, need, message; honeypot bot-field) posting to the new noindex /contact/thanks/ page. The
+Netlify function netlify/functions/submission-created.mjs (copied unchanged) sends the text and
+email. check.py now requires that form on /contact/ and still fails a form on any other page; the
+thanks page is exempt from the FAQ and image rules like 404. The "phone only" wording on contact,
+about, how it works, privacy and terms was rewritten; the call stays the main way in.

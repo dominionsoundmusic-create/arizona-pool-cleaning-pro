@@ -504,3 +504,18 @@ body > .skiptranslate { display: none !important; }
 /* Homepage welcome video: moderate size beside the text, under it on phones */
 .split--video .video { margin: 0; }
 @media (min-width: 861px) { .prose .split--video { grid-template-columns: 1.1fr .9fr; } }
+
+/* Oct 29 2026: quote form on /contact/ (Netlify form yuma-pool-contact). White box with a teal
+   border on the white page, bold labels, dark 2px field borders, large tap targets. */
+.quote-box { background: var(--white); border: 3px solid var(--brand); border-radius: var(--radius); padding: clamp(20px, 3.5vw, 36px); box-shadow: var(--shadow); }
+.quote-box > h2:first-child { margin-top: 0; }
+.quote-form__grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4px 22px; }
+.quote-form .field { margin: 0 0 14px; }
+.quote-form .field--full { grid-column: 1 / -1; }
+.quote-form label { display: block; font-weight: 700; color: var(--navy); margin-bottom: 6px; }
+.quote-form input, .quote-form select, .quote-form textarea { display: block; width: 100%; max-width: 100%; box-sizing: border-box; min-height: 50px; padding: 12px 14px; font: inherit; font-size: 1.05rem; color: var(--ink); background: var(--white); border: 2px solid var(--navy); border-radius: var(--radius-sm); }
+.quote-form textarea { min-height: 120px; resize: vertical; }
+.quote-form input:focus, .quote-form select:focus, .quote-form textarea:focus { outline: 3px solid var(--focus); outline-offset: 1px; border-color: var(--brand); }
+.quote-form button { cursor: pointer; }
+.quote-form__note { color: var(--ink); margin: 6px 0 0; }
+@media (max-width: 640px) { .quote-form__grid { grid-template-columns: 1fr; } .quote-form button { width: 100%; } }

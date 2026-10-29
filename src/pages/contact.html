@@ -1,8 +1,8 @@
 ---
 type: contact
 title: "Contact Yuma Pool Cleaning Pro: Call the Free Yuma Pool Line"
-description: "Yuma Pool Cleaning Pro is phone only. Call any hour and an automated assistant puts you through to an independent pool service company in the Yuma area."
-h1: "Contact the Yuma Pool Line by Phone"
+description: "Call the free Yuma pool line any hour, or send a short quote form, and an independent pool service company in the Yuma area gets back to you."
+h1: "Contact the Yuma Pool Line"
 crumb: "Contact"
 hero:
   image: contact-hero.jpg
@@ -10,13 +10,13 @@ hero:
   desc: "Wide cinematic landscape shot, subject positioned on right third of frame, well lit, a smartphone lying face down on a small patio table on the right third beside a clear backyard pool in Yuma, Arizona, early evening light, a single-story white stucco home with a flat roof, a tan block wall, crushed gravel landscaping with agave, ocotillo and a mesquite tree, bare rocky desert mountains far away under a clear sky, realistic photo, no lake, no river, no text, no logos, no house numbers, no readable screen, no recognizable faces"
   fallback: pool/hero-2.jpg
   fallback_alt: "A free-form turquoise pool with a flagstone deck, boulders, a covered patio with a dining table, palms and cacti"
-  lead: "No form, no inbox, no office to visit. One phone number, answered by an automated assistant day and night, puts you through to a pool company in the Yuma area that is independent and locally owned."
-  secondary_label: "What to say when you call"
-  secondary_href: "#what-to-say"
+  lead: "Call any hour, or send the short form below and a local company calls you back. Either way you reach a pool company in the Yuma area that is independent and locally owned. There is no office to visit."
+  secondary_label: "Send the short form"
+  secondary_href: "#quote-form"
 cta_title: "Call the Yuma pool line any hour"
 faqs:
-  - q: "Does the pool line have an email address or a web form?"
-    a: "<p>No. Calls are the only way in. There is no inbox and no web form, and the form on the older version of this site was taken down. A call is the quickest way to get your pool problem in front of a local company.</p>"
+  - q: "Can I send a request online instead of calling?"
+    a: "<p>Yes. Fill in the short form on this page with your name, phone number, city or ZIP code and what the pool needs. Your request is passed to an independent local pool company, which calls you back. The line has no public email address. If the pool needs attention right away, calling is still the quickest way in.</p>"
   - q: "What hours can I call?"
     a: "<p>Any hour, any day. An automated assistant answers at night, on weekends and on holidays too. The visit time is something you arrange with the pool company.</p>"
   - q: "I missed the call back. What should I do?"
@@ -29,16 +29,48 @@ faqs:
   <div class="split">
     <div>
       <h2>Call {{ site.business.phone_display }}, day or night</h2>
-      <p class="lead">The only way to reach Yuma Pool Cleaning Pro is by phone. Tap the button on a mobile phone, or dial the number from any phone.</p>
+      <p class="lead">The fastest way to reach Yuma Pool Cleaning Pro is by phone. Tap the button on a mobile phone, or dial the number from any phone. Rather type it out? Use the short form below.</p>
       <p><a class="btn btn--orange btn--big" href="tel:{{ site.business.phone_tel }}">{{ site.cta.primary_label }}</a></p>
       <ul class="facts">
         <li><strong>Hours</strong>Day and night, weekends and holidays. An automated assistant takes every call.</li>
-        <li><strong>Email</strong>None. The line is phone only.</li>
+        <li><strong>Form</strong>Send the short form on this page and a local pool company calls you back.</li>
+        <li><strong>Email</strong>No public email address. Call or use the form.</li>
         <li><strong>Address</strong>Not displayed. The line has no office for visitors and no one comes to your home from the line.</li>
         <li><strong>Cost</strong>Free. The line never bills you. The pool company prices and bills its own work.</li>
       </ul>
     </div>
     {{ img('pool/dusk-wide.jpg', 'A backyard pool lit at dusk under string lights, with a stone patio and cacti', 1200, 500) }}
+  </div>
+</section>
+
+<section class="prose" id="quote-form">
+  <div class="quote-box">
+    <h2>Send a short quote request</h2>
+    <p>Tell us what the pool needs and an independent local pool company will call you back. Fields marked required must be filled in.</p>
+    <form class="quote-form" name="yuma-pool-contact" method="POST" action="/contact/thanks/" data-netlify="true" netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="yuma-pool-contact">
+      <p hidden><label>Leave blank <input name="bot-field"></label></p>
+      <div class="quote-form__grid">
+        <p class="field"><label for="qf-name">Your name (required)</label><input id="qf-name" type="text" name="name" autocomplete="name" required></p>
+        <p class="field"><label for="qf-phone">Phone (required)</label><input id="qf-phone" type="tel" name="phone" autocomplete="tel" inputmode="tel" required></p>
+        <p class="field"><label for="qf-email">Email (optional)</label><input id="qf-email" type="email" name="email" autocomplete="email"></p>
+        <p class="field"><label for="qf-city">City or ZIP code (required)</label><input id="qf-city" type="text" name="city" autocomplete="address-level2" required></p>
+        <p class="field field--full"><label for="qf-need">What do you need? (required)</label>
+          <select id="qf-need" name="need" required>
+            <option value="">Choose one</option>
+            <option>Weekly pool cleaning</option>
+            <option>Green or cloudy pool cleanup</option>
+            <option>Pump, filter or heater repair</option>
+            <option>Leak or other equipment problem</option>
+            <option>Chemicals or water balance</option>
+            <option>Snowbird or seasonal service</option>
+            <option>Just a question</option>
+          </select></p>
+        <p class="field field--full"><label for="qf-message">Anything else the company should know? (optional)</label><textarea id="qf-message" name="message" rows="4"></textarea></p>
+      </div>
+      <p><button class="btn btn--orange btn--big" type="submit">Send my request</button></p>
+    </form>
+    <p class="quote-form__note">Your details go only to the independent local pool company that will call you back. They are not sold. See the <a href="/privacy-policy.html">privacy policy</a>. In a hurry? Call <a href="tel:{{ site.business.phone_tel }}">{{ site.business.phone_display }}</a> any hour.</p>
   </div>
 </section>
 
@@ -78,7 +110,7 @@ faqs:
   <div class="split">
     <div>
       <h2>Your details and privacy</h2>
-      <p>What you tell the assistant goes to the pool company your call reaches, so it can help you or call you back. Calls may be recorded. The <a href="/privacy-policy.html">privacy policy</a> explains what is kept, who receives it and why.</p>
+      <p>What you tell the assistant, or type into the form, goes to the pool company that helps you, so it can call you back. Calls may be recorded. The <a href="/privacy-policy.html">privacy policy</a> explains what is kept, who receives it and why.</p>
       <h2>Areas the line covers</h2>
       <p>The line takes calls from the City of Yuma and nearby Yuma County communities. The <a href="/service-areas/">service areas page</a> has notes on each one.</p>
       {{ m.area_pills() }}
